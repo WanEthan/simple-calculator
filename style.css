@@ -68,3 +68,22 @@ button:hover {
     box-shadow: 2px 2px 3px 4px #F0E9D2;
     color: #181D31;
 }
+
+.author {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #181D31;
+    color: #F0E9D2;
+    border-radius: 12px;
+    margin: 15% auto;
+    padding: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: #F0E9D2;
+}
