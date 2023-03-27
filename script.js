@@ -34,13 +34,16 @@ function calculate() {
     if (operator == "-") {
         outcome = Number(number2) - Number(number1);
     }
-    
+
     if (operator == "*") {
         outcome = Number(number2) * Number(number1);
     }
 
     if (operator == "/") {
         outcome = Number(number2) / Number(number1);
+    }
+    if (operator == "√") {
+        outcome = Math.sqrt(Number(number2));
     }
     number1 = "";
     operator = "";
